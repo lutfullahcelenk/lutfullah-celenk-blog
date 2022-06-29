@@ -34,13 +34,25 @@ const Sidebar = () => {
 
       {/* Social Links*/}
       <div className="flex justify-around my-5 text-green-default w-3/4 md:w-full mx-auto">
-        <a href="https://github.com/lutfullahcelenk">
+        <a
+          href="https://github.com/lutfullahcelenk"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillGithub className="w-8 h-8" />
         </a>
-        <a href="https://www.linkedin.com/in/lutfullah-celenk/">
+        <a
+          href="https://www.linkedin.com/in/lutfullah-celenk/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillLinkedin className="w-8 h-8" />
         </a>
-        <a href="https://www.instagram.com/lutfullahclnk/">
+        <a
+          href="https://www.instagram.com/lutfullahclnk/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillInstagram className="w-8 h-8" />
         </a>
       </div>
