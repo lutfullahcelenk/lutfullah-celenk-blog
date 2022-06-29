@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 //components
 import Sidebar from "../components/Sidebar/index";
+import Navbar from "../components/Navbar/index";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -8,7 +9,8 @@ function MyApp({ Component, pageProps }) {
       <div className="lg:col-span-3 bg-white rounded-2xl col-span-12 p-4 text-center">
         <Sidebar />
       </div>
-      <div className="lg:col-span-9 bg-white rounded-2xl col-span-12 p-4 text-center">
+      <div className="lg:col-span-9 bg-white rounded-2xl col-span-12 p-4 text-center flex flex-col">
+        <Navbar />
         <Component {...pageProps} />
       </div>
     </div>
