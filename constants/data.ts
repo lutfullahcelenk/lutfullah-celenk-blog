@@ -4,7 +4,7 @@ import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { BsCircleFill } from "react-icons/bs";
-import { ISkill, Service } from "./type";
+import { IProject, ISkill, Service } from "./type";
 
 export const services: Service[] = [
   {
@@ -96,4 +96,53 @@ export const tools: ISkill[] = [
     level: "70%",
     Icon: BsCircleFill
   },
+]
+
+export const projects: IProject[] = [
+  {
+    name: "Pizza Delivery App",
+    description: "You can place an order for pizza with this app.",
+    image_path: "/images/pizza.png",
+    deployed_url: "https://lutfullah-pizza.netlify.app/",
+    github_url: "https://github.com/lutfullahcelenk/NextJs-FoodOrderingApp",
+    category: ["nextJS"],
+    key_techs: ["NextJS", "ModuleCSS", "Redux"]
+  },
+  {
+    name: "Blog",
+    description: "This is my personal blog portfolio",
+    image_path: "/images/blog.png",
+    deployed_url: "https://lutfullah-celenk.netlify.app",
+    github_url: "https://github.com/lutfullahcelenk/lutfullah-celenk-blog",
+    category: ["nextJS"],
+    key_techs: ["NextJS", "TailwindCSS", "FramerMotion"]
+  },
+  {
+    name: "SpaceX",
+    description: "This is the website for SpaceX and you can find more information about rockets, launches and astrounots",
+    image_path: "/images/spacex.png",
+    deployed_url: "https://lutfullah-spacex.netlify.app",
+    github_url: "https://github.com/lutfullahcelenk/spacex",
+    category: ["reactJS"],
+    key_techs: ["ReactJS", "TailwindCSS", "ContextAPI"]
+  },
+  {
+    name: "Lutfullah Gaming",
+    description: "This is the website for pointing gaming",
+    image_path: "/images/gaming.png",
+    deployed_url: "https://lutfullahgaming.netlify.app",
+    github_url: "https://github.com/lutfullahcelenk/lutfullah-gaming-app",
+    category: ["reactJS"],
+    key_techs: ["ReactJS", "MaterialUI", "Redux"]
+  },
+  {
+    name: "Lutfullah TODO",
+    description: "This is a TODO app",
+    image_path: "/images/todo.png",
+    deployed_url: "https://lutfullah-todo-app.netlify.app",
+    github_url: "https://github.com/lutfullahcelenk/casestudy-todo-app",
+    category: ["reactJS"],
+    key_techs: ["ReactJS", "Antd", "ContextAPI"]
+  },
+
 ]
