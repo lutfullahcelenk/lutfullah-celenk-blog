@@ -50,7 +50,7 @@ export const languages: ISkill[] = [
   },
   {
     name: "Javascript",
-    level: "80%",
+    level: "85%",
     Icon: BsCircleFill
   },
   {
