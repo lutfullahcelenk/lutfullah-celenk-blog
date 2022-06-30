@@ -40,7 +40,7 @@ const Resume = () => {
       </div>
 
       {/* languuages && tools */}
-      <div className="grid gap-6 md:grid-cols-2">
+      <div className="grid gap-6 mt-8 md:grid-cols-2">
         <div>
           <h5 className="my-2 text-xl font-bold text-red-500">
             Languages && Frameworks
