@@ -3,14 +3,9 @@ import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/ai";
+import { Service } from "./type";
 
-interface IService {
-  title: string;
-  about: string;
-  Icon: any;
-}
-
-export const services: IService[] = [
+export const services: Service[] = [
   {
     title: "FrontEnd Development",
     about:
@@ -41,6 +36,6 @@ export const services: IService[] = [
   {
     title: "Personal",
     about: "always use the newest technologies and pursue of the updates",
-    Icon: RiComputerLine,
+    Icon: MdDeveloperMode,
   },
 ];
