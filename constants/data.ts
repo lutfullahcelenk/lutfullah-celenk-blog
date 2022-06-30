@@ -112,7 +112,7 @@ export const projects: IProject[] = [
     name: "Blog",
     description: "This is my personal blog portfolio",
     image_path: "/images/blog.png",
-    deployed_url: "https://lutfullah-celenk.netlify.app",
+    deployed_url: "https://lutfullahcelenk.netlify.app",
     github_url: "https://github.com/lutfullahcelenk/lutfullah-celenk-blog",
     category: ["nextJS"],
     key_techs: ["NextJS", "TailwindCSS", "FramerMotion"]
