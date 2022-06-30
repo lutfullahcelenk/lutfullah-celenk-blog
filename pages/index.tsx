@@ -21,7 +21,7 @@ const index = () => {
           My Portfolio
         </h4>
 
-        <div className="grid gap-6 mt-10 md:grid-cols-2">
+        <div className="grid gap-6 mt-10 lg:grid-cols-2">
           {/* children's initial and animate property should be same as the parent during a stagger effect  */}
           {services.map((service) => (
             <div
