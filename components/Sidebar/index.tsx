@@ -1,10 +1,8 @@
+// @ts-nocheck
 import profile from "../../assets/profile.jpeg";
 import Image from "../../node_modules/next/image";
-// @ts-ignore
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
-// @ts-ignore
 import { GoLocation } from "react-icons/go";
-// @ts-ignore
 import { GiTie } from "react-icons/gi";
 
 const Sidebar = () => {
@@ -15,7 +13,7 @@ const Sidebar = () => {
         alt="Picture of me"
         width={500}
         height={500}
-        className="rounded-full mx-auto"
+        className="mx-auto rounded-full"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         Lütfullah <span>ÇELENK</span>
@@ -24,7 +22,7 @@ const Sidebar = () => {
         FrontEnd Developer
       </p>
       <a
-        className="px-2 py-1 my-3 bg-gray-200 rounded-full flex items-center justify-center"
+        className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full"
         href=""
         download="name"
       >
@@ -33,7 +31,7 @@ const Sidebar = () => {
       </a>
 
       {/* Social Links*/}
-      <div className="flex justify-around my-5 text-green-default w-3/4 md:w-full mx-auto">
+      <div className="flex justify-around w-3/4 mx-auto my-5 text-green-default md:w-full">
         <a
           href="https://github.com/lutfullahcelenk"
           target="_blank"
@@ -59,7 +57,7 @@ const Sidebar = () => {
 
       {/* Address */}
       <div
-        className="my-5 py-4 bg-gray-200"
+        className="py-4 my-5 bg-gray-200"
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center gap-x-2">
@@ -73,11 +71,11 @@ const Sidebar = () => {
       {/* Email */}
       <button
         onClick={() => window.open("mailto:lutfullahclnk1104@gmail.com")}
-        className="bg-gradient-to-r from-green-default to-blue-400 w-2/3 rounded-full py-2 px-5 my-2 focus:outline-none"
+        className="w-2/3 px-5 py-2 my-2 rounded-full bg-gradient-to-r from-green-default to-blue-400 focus:outline-none"
       >
         Email Me
       </button>
-      <button className="bg-gradient-to-r from-green-default to-blue-400 w-2/3 rounded-full py-2 px-5 my-2">
+      <button className="w-2/3 px-5 py-2 my-2 rounded-full bg-gradient-to-r from-green-default to-blue-400">
         Toggle Theme
       </button>
     </div>
