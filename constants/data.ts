@@ -2,7 +2,7 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
-import { MdDeveloperMode } from "react-icons/ai";
+import { MdDeveloperMode } from "react-icons/md";
 import { Service } from "./type";
 
 export const services: Service[] = [
@@ -25,17 +25,17 @@ export const services: Service[] = [
   {
     title: "Competetive Coder",
     about:
-      "a daily problem solver and find bugfixes in <strong>HackerRank</strong> and proceeeding projects",
+      "A daily problem solver and find bugfixes in <strong>HackerRank</strong> and proceeeding projects",
     Icon: AiOutlineApi,
   },
   {
     title: "UI/UX Design",
-    about: "get the exact points in design and turn them into live",
+    about: "Get the exact points in design and turn them into live",
     Icon: AiOutlineAntDesign,
   },
   {
     title: "Personal",
-    about: "always use the newest technologies and pursue of the updates",
+    about: "Always use the newest technologies and pursue of the updates",
     Icon: MdDeveloperMode,
   },
 ];
