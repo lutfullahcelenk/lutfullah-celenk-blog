@@ -3,7 +3,8 @@ import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import { Service } from "./type";
+import { BsCircleFill } from "react-icons/bs";
+import { ISkill, Service } from "./type";
 
 export const services: Service[] = [
   {
@@ -39,3 +40,60 @@ export const services: Service[] = [
     Icon: MdDeveloperMode,
   },
 ];
+
+
+export const languages: ISkill[] = [
+  {
+    name: "Python",
+    level: "60%",
+    Icon: BsCircleFill
+  },
+  {
+    name: "Javascript",
+    level: "80%",
+    Icon: BsCircleFill
+  },
+  {
+    name: "ReactJS",
+    level: "90%",
+    Icon: BsCircleFill
+  },
+  {
+    name: "Typescript",
+    level: "80%",
+    Icon: BsCircleFill
+  },
+  {
+    name: "NextJs",
+    level: "70%",
+    Icon: BsCircleFill
+  },
+]
+
+export const tools: ISkill[] = [
+  {
+    name: "Figma",
+    level: "85%",
+    Icon: BsCircleFill
+  },
+  {
+    name: "Framer",
+    level: "80%",
+    Icon: BsCircleFill
+  },
+  {
+    name: "AdobeXD",
+    level: "90%",
+    Icon: BsCircleFill
+  },
+  {
+    name: "Git & GitHub",
+    level: "90%",
+    Icon: BsCircleFill
+  },
+  {
+    name: "NextJs",
+    level: "70%",
+    Icon: BsCircleFill
+  },
+]

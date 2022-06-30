@@ -6,3 +6,9 @@ export interface Service {
   title: string;
   about: string;
 }
+
+export interface ISkill {
+  name: string;
+  level: string;
+  Icon: IconType;
+}
