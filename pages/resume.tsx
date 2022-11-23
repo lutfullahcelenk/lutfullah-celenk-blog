@@ -22,7 +22,7 @@ const Resume = () => {
           </div>
           <div>
             <h5 className="my-2 text-xl font-bold text-red-500">
-              Bachelor's Degree
+              Bachelors Degree
             </h5>
             <p className="font-semibold">Turkish Military Academy</p>
             <p className="w-3/4 my-3 text-justify">
