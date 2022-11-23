@@ -20,6 +20,17 @@ const Resume = () => {
               Program in Virginia. I have a certificated in this field.{" "}
             </p>
           </div>
+          <div>
+            <h5 className="my-2 text-xl font-bold text-red-500">
+              Bachelor's Degree
+            </h5>
+            <p className="font-semibold">Turkish Military Academy</p>
+            <p className="w-3/4 my-3 text-justify">
+              I have graduated from Kuleli Military High School at 2011 and
+              carried on my education on Turkish Military Acedemy and have
+              graduated at 2015 as a Civil Engineer.
+            </p>
+          </div>
         </div>
 
         <div>
@@ -28,7 +39,21 @@ const Resume = () => {
             <h5 className="my-2 text-xl font-bold text-red-500">
               Front End Developer
             </h5>
-            <p className="font-semibold">Westerops (2021 - on)</p>
+            <p className="font-semibold">UPayments (August 2022 - on)</p>
+            <p className="w-3/4 my-3 text-justify">
+              I am a part of a NextJs E-Commerce project as a mid level front
+              end developer. I have used some technologies such as NextJS,
+              TypeScript, Redux Toolkit, TailwindCSS, Husky, Cypress Testing
+              Library, Storybook.
+            </p>
+          </div>
+          <div>
+            <h5 className="my-2 text-xl font-bold text-red-500">
+              Front End && ReactJS Developer
+            </h5>
+            <p className="font-semibold">
+              Westerops (September 2021 - August 2022)
+            </p>
             <p className="w-3/4 my-3 text-justify">
               I started in this company as a FrontEnd Developer and take parts
               on 7 on-live projects. I have used some methodologies and
