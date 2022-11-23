@@ -65,6 +65,11 @@ export const languages: ISkill[] = [
   },
   {
     name: "NextJs",
+    level: "90%",
+    Icon: BsCircleFill
+  },
+  {
+    name: "React Native",
     level: "70%",
     Icon: BsCircleFill
   },
@@ -143,6 +148,51 @@ export const projects: IProject[] = [
     github_url: "https://github.com/lutfullahcelenk/casestudy-todo-app",
     category: ["reactJS"],
     key_techs: ["ReactJS", "Antd", "ContextAPI"]
+  },
+  {
+    name: "Kodegon Demo",
+    description: "This is a case study for Kodegon Company.",
+    image_path: "/images/kodegon.png",
+    deployed_url: "https://lutfullah-kodegondemo.netlify.app/",
+    github_url: "https://github.com/lutfullahcelenk/kodegon-demo",
+    category: ["reactJS"],
+    key_techs: ["ReactJS", "Mansory", "TailwindCSS","TypeScript", "Slick Carousel"]
+  },
+  {
+    name: "Search Engine System",
+    description: "This is a case study for TesoDEV. It consists of search engine systema and CRUD operations",
+    image_path: "/images/searchEngineSystem.png",
+    deployed_url: "https://lutfullah-searchengine.netlify.app/",
+    github_url: "https://github.com/lutfullahcelenk/search-engine-system",
+    category: ["reactJS"],
+    key_techs: ["ReactJS", "Search", "TailwindCSS","TypeScript", "Swiper"]
+  },
+  {
+    name: "Admin Panel",
+    description: "This is an admin panel made with NextJS",
+    image_path: "/images/adminPanel.png",
+    deployed_url: "https://lutfullah-adminpanel.netlify.app/",
+    github_url: "https://github.com/lutfullahcelenk/admin-panel",
+    category: ["nextJS"],
+    key_techs: ["NextJS", "Redux", "TailwindCSS","TypeScript", "Dynamic Routes"]
+  },
+  {
+    name: "Customer Services Panel",
+    description: "This is a panel which can logged in both as an admin or as a user. The displays are different from each other.",
+    image_path: "/images/customerServices.png",
+    deployed_url: "https://lutfullah-customerservices.netlify.app/",
+    github_url: "https://github.com/lutfullahcelenk/customer-services",
+    category: ["reactJS"],
+    key_techs: ["ReactJS", "Redux Toolkit", "TailwindCSS","TypeScript", "Admin Panel"]
+  },
+  {
+    name: "JWT Authentication System",
+    description: "This is a login & register panel. I used firebase and google authentication for this project.",
+    image_path: "/images/jwt.png",
+    deployed_url: "https://lutfullah-auth.netlify.app/auth",
+    github_url: "https://github.com/lutfullahcelenk/jwt-authentication-app",
+    category: ["reactJS"],
+    key_techs: ["ReactJS", "Redux Toolkit", "TailwindCSS","TypeScript", "Authentication"]
   },
 
 ]
