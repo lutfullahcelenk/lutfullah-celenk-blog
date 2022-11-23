@@ -12,7 +12,7 @@ const Resume = () => {
           <h5 className="my-3 text-2xl font-bold uppercase">Education</h5>
           <div>
             <h5 className="my-2 text-xl font-bold text-red-500">
-              Software Engineering
+              Front End Development
             </h5>
             <p className="font-semibold">FrontEnd Development Program</p>
             <p className="w-3/4 my-3 text-justify">
