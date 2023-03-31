@@ -37,9 +37,23 @@ const Resume = () => {
           <h5 className="my-3 text-2xl font-bold uppercase">Experience</h5>
           <div>
             <h5 className="my-2 text-xl font-bold text-red-500">
-              Front End Developer
+              Mid Front End Developer
             </h5>
-            <p className="font-semibold">UPayments (August 2022 - on)</p>
+            <p className="font-semibold">Vodafone (January 2023 - present)</p>
+            <p className="w-full sm:w-3/4 my-3 text-justify">
+              I am a part of Zeus project which is awarded for the 3 times
+              nternationally, as a mid level front end developer. I have used
+              some technologies such as ReactJS, Bootstrap, Redux Saga, Formik,
+              Sass etc.
+            </p>
+          </div>
+          <div>
+            <h5 className="my-2 text-xl font-bold text-red-500">
+              Mid Front End Developer
+            </h5>
+            <p className="font-semibold">
+              UPayments (August 2022 - January 2023)
+            </p>
             <p className="w-full sm:w-3/4 my-3 text-justify">
               I am a part of a NextJs E-Commerce project as a mid level front
               end developer. I have used some technologies such as NextJS,
@@ -67,8 +81,8 @@ const Resume = () => {
       {/* languuages && tools */}
       <div className="grid gap-6 mt-8 md:grid-cols-2">
         <div>
-          <h5 className="my-2 text-xl font-bold text-red-500">
-            Languages && Frameworks
+        <h5 className="flex flex-col xl:flex-row my-2 text-xl font-bold text-red-500">
+            <span>Languages && </span> <span className="xl:px-1 px-0">Frameworks</span>
           </h5>
           <div className="my-2">
             {languages.map((language) => (
@@ -78,8 +92,8 @@ const Resume = () => {
         </div>
 
         <div>
-          <h5 className="my-2 text-xl font-bold text-red-500">
-            Tools && Softwares
+          <h5 className="flex flex-col xl:flex-row my-2 text-xl font-bold text-red-500">
+            <span>Tools && </span> <span className="xl:px-1 px-0">Softwares</span>
           </h5>
           <div className="my-2">
             {tools.map((tool) => (

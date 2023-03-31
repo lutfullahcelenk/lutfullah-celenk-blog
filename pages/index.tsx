@@ -4,7 +4,6 @@ import { services } from "../constants/data";
 import ServiceCard from "../components/ServiceCard/index";
 
 const index = () => {
-  console.log('services', services)
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h6 className="w-2/3 my-3 text-base font-medium">

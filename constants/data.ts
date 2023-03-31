@@ -41,69 +41,113 @@ export const services: Service[] = [
   },
 ];
 
-
 export const languages: ISkill[] = [
   {
     name: "Python",
     level: "60%",
-    Icon: BsCircleFill
+    Icon: BsCircleFill,
   },
   {
     name: "Javascript",
     level: "85%",
-    Icon: BsCircleFill
+    Icon: BsCircleFill,
   },
   {
     name: "ReactJS",
     level: "90%",
-    Icon: BsCircleFill
+    Icon: BsCircleFill,
   },
   {
     name: "Typescript",
     level: "80%",
-    Icon: BsCircleFill
+    Icon: BsCircleFill,
   },
   {
     name: "NextJs",
     level: "90%",
-    Icon: BsCircleFill
+    Icon: BsCircleFill,
   },
   {
     name: "React Native",
     level: "70%",
-    Icon: BsCircleFill
+    Icon: BsCircleFill,
   },
-]
+];
 
 export const tools: ISkill[] = [
   {
     name: "Figma",
     level: "85%",
-    Icon: BsCircleFill
+    Icon: BsCircleFill,
   },
   {
     name: "Framer",
     level: "80%",
-    Icon: BsCircleFill
+    Icon: BsCircleFill,
   },
   {
     name: "AdobeXD",
     level: "90%",
-    Icon: BsCircleFill
+    Icon: BsCircleFill,
   },
   {
     name: "Git & GitHub",
     level: "90%",
-    Icon: BsCircleFill
+    Icon: BsCircleFill,
   },
   {
-    name: "NextJs",
-    level: "70%",
-    Icon: BsCircleFill
+    name: "Cypress",
+    level: "90%",
+    Icon: BsCircleFill,
   },
-]
+];
 
 export const projects: IProject[] = [
+  {
+    name: "Upayments Upay",
+    description: "You can shop anything you want",
+    image_path: "/images/upay.png",
+    deployed_url: "https://upayments.com/en/upay/",
+    github_url: "https://upayments.com/en/upay/",
+    category: ["nextJS"],
+    key_techs: ["NextJS", "ModuleCSS", "Redux", "TailwindCSS"],
+  },
+  {
+    name: "Döngü",
+    description: "You can shop anything you want",
+    image_path: "/images/dongu.webp",
+    deployed_url: "https://dongu.com/",
+    github_url: "https://dongu.com/",
+    category: ["reactJS"],
+    key_techs: ["reactJS", "Ant Design", "Redux"],
+  },
+  {
+    name: "Feher Construction",
+    description:
+      "We have been meeting the demands of all our customers, in cooperation with our partners.",
+    image_path: "/images/feher.jpeg",
+    deployed_url: "https://www.feherconstruction.com/",
+    github_url: "https://www.feherconstruction.com/",
+    category: ["nextJS"],
+    key_techs: [
+      "NextJS",
+      "ModuleCSS",
+      "Redux Toolkit",
+      "TailwindCSS",
+      "Stroybook",
+      "Cypress Testing",
+    ],
+  },
+  {
+    name: "Platform Istanbul",
+    description:
+      "Fiziksel ve dijital ekosistemleri aynı çatı altında toplayan öncü iş modeli",
+    image_path: "/images/platform.svg",
+    deployed_url: "https://platformistanbul.ist/",
+    github_url: "https://platformistanbul.ist/",
+    category: ["reactJS"],
+    key_techs: ["reactJS", "Redux", "Material UI", "Jest"],
+  },
   {
     name: "Pizza Delivery App",
     description: "You can place an order for pizza with this app.",
@@ -111,7 +155,7 @@ export const projects: IProject[] = [
     deployed_url: "https://lutfullah-pizza.netlify.app/",
     github_url: "https://github.com/lutfullahcelenk/NextJs-FoodOrderingApp",
     category: ["nextJS"],
-    key_techs: ["NextJS", "ModuleCSS", "Redux"]
+    key_techs: ["NextJS", "ModuleCSS", "Redux"],
   },
   {
     name: "Blog",
@@ -120,16 +164,17 @@ export const projects: IProject[] = [
     deployed_url: "https://lutfullahcelenk.netlify.app",
     github_url: "https://github.com/lutfullahcelenk/lutfullah-celenk-blog",
     category: ["nextJS"],
-    key_techs: ["NextJS", "TailwindCSS", "FramerMotion"]
+    key_techs: ["NextJS", "TailwindCSS", "FramerMotion"],
   },
   {
     name: "SpaceX",
-    description: "This is the website for SpaceX and you can find more information about rockets, launches and astrounots",
+    description:
+      "This is the website for SpaceX and you can find more information about rockets, launches and astrounots",
     image_path: "/images/spacex.png",
     deployed_url: "https://lutfullah-spacex.netlify.app",
     github_url: "https://github.com/lutfullahcelenk/spacex",
     category: ["reactJS"],
-    key_techs: ["ReactJS", "TailwindCSS", "ContextAPI"]
+    key_techs: ["ReactJS", "TailwindCSS", "ContextAPI"],
   },
   {
     name: "Lutfullah Gaming",
@@ -138,7 +183,7 @@ export const projects: IProject[] = [
     deployed_url: "https://lutfullahgaming.netlify.app",
     github_url: "https://github.com/lutfullahcelenk/lutfullah-gaming-app",
     category: ["reactJS"],
-    key_techs: ["ReactJS", "MaterialUI", "Redux"]
+    key_techs: ["ReactJS", "MaterialUI", "Redux"],
   },
   {
     name: "Lutfullah TODO",
@@ -147,7 +192,7 @@ export const projects: IProject[] = [
     deployed_url: "https://lutfullah-todo-app.netlify.app",
     github_url: "https://github.com/lutfullahcelenk/casestudy-todo-app",
     category: ["reactJS"],
-    key_techs: ["ReactJS", "Antd", "ContextAPI"]
+    key_techs: ["ReactJS", "Antd", "ContextAPI"],
   },
   {
     name: "Kodegon Demo",
@@ -156,16 +201,23 @@ export const projects: IProject[] = [
     deployed_url: "https://lutfullah-kodegondemo.netlify.app/",
     github_url: "https://github.com/lutfullahcelenk/kodegon-demo",
     category: ["reactJS"],
-    key_techs: ["ReactJS", "Mansory", "TailwindCSS","TypeScript", "Slick Carousel"]
+    key_techs: [
+      "ReactJS",
+      "Mansory",
+      "TailwindCSS",
+      "TypeScript",
+      "Slick Carousel",
+    ],
   },
   {
     name: "Search Engine System",
-    description: "This is a case study for TesoDEV. It consists of search engine systema and CRUD operations",
+    description:
+      "This is a case study for TesoDEV. It consists of search engine systema and CRUD operations",
     image_path: "/images/searchEngineSystem.png",
     deployed_url: "https://lutfullah-searchengine.netlify.app/",
     github_url: "https://github.com/lutfullahcelenk/search-engine-system",
     category: ["reactJS"],
-    key_techs: ["ReactJS", "Search", "TailwindCSS","TypeScript", "Swiper"]
+    key_techs: ["ReactJS", "Search", "TailwindCSS", "TypeScript", "Swiper"],
   },
   {
     name: "Admin Panel",
@@ -174,25 +226,44 @@ export const projects: IProject[] = [
     deployed_url: "https://lutfullah-adminpanel.netlify.app/",
     github_url: "https://github.com/lutfullahcelenk/admin-panel",
     category: ["nextJS"],
-    key_techs: ["NextJS", "Redux", "TailwindCSS","TypeScript", "Dynamic Routes"]
+    key_techs: [
+      "NextJS",
+      "Redux",
+      "TailwindCSS",
+      "TypeScript",
+      "Dynamic Routes",
+    ],
   },
   {
     name: "Customer Services Panel",
-    description: "This is a panel which can logged in both as an admin or as a user. The displays are different from each other.",
+    description:
+      "This is a panel which can logged in both as an admin or as a user. The displays are different from each other.",
     image_path: "/images/customerServices.png",
     deployed_url: "https://lutfullah-customerservices.netlify.app/",
     github_url: "https://github.com/lutfullahcelenk/customer-services",
     category: ["reactJS"],
-    key_techs: ["ReactJS", "Redux Toolkit", "TailwindCSS","TypeScript", "Admin Panel"]
+    key_techs: [
+      "ReactJS",
+      "Redux Toolkit",
+      "TailwindCSS",
+      "TypeScript",
+      "Admin Panel",
+    ],
   },
   {
     name: "JWT Authentication System",
-    description: "This is a login & register panel. I used firebase and google authentication for this project.",
+    description:
+      "This is a login & register panel. I used firebase and google authentication for this project.",
     image_path: "/images/jwt.png",
     deployed_url: "https://lutfullah-auth.netlify.app/auth",
     github_url: "https://github.com/lutfullahcelenk/jwt-authentication-app",
     category: ["reactJS"],
-    key_techs: ["ReactJS", "Redux Toolkit", "TailwindCSS","TypeScript", "Authentication"]
+    key_techs: [
+      "ReactJS",
+      "Redux Toolkit",
+      "TailwindCSS",
+      "TypeScript",
+      "Authentication",
+    ],
   },
-
-]
+];
