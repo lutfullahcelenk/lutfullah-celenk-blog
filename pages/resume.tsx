@@ -9,22 +9,22 @@ const Resume = () => {
       {/* education && exp*/}
       <div className="grid gap-6 lg:grid-cols-2">
         <div>
-          <h5 className="my-3 text-2xl font-bold uppercase">Education</h5>
+          <h5 className="my-3 text-2xl font-bold uppercase underline text-red-800 dark:text-red-700">Education</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold text-red-500">
+            <h5 className="my-2 text-xl font-bold text-maroon-500">
               Front End Development
             </h5>
-            <p className="font-semibold">FrontEnd Development Program</p>
+            <p className="font-extrabold underline">FrontEnd Development Program</p>
             <p className="w-full sm:w-3/4 my-3 text-justify">
               I have graduated from the 9-month intense Front End Development
               Program in Virginia. I have a certificated in this field.{" "}
             </p>
           </div>
           <div>
-            <h5 className="my-2 text-xl font-bold text-red-500">
+            <h5 className="my-2 text-xl font-bold text-maroon-500">
               Bachelors Degree
             </h5>
-            <p className="font-semibold">Turkish Military Academy</p>
+            <p className="font-semibold underline">Turkish Military Academy</p>
             <p className="w-full sm:w-3/4 my-3 text-justify">
               I have graduated from Kuleli Military High School at 2011 and
               carried on my education on Turkish Military Acedemy and have
@@ -34,12 +34,12 @@ const Resume = () => {
         </div>
 
         <div>
-          <h5 className="my-3 text-2xl font-bold uppercase">Experience</h5>
+          <h5 className="my-3 text-2xl font-bold uppercase text-red-800 dark:text-red-700 underline">Experience</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold text-red-500">
+            <h5 className="my-2 text-xl font-bold text-maroon-500">
               Mid Front End Developer
             </h5>
-            <p className="font-semibold">Vodafone (January 2023 - present)</p>
+            <p className="font-semibold underline">Vodafone (January 2023 - present)</p>
             <p className="w-full sm:w-3/4 my-3 text-justify">
               I am a part of Zeus project which is awarded for the 3 times
               nternationally, as a mid level front end developer. I have used
@@ -48,10 +48,10 @@ const Resume = () => {
             </p>
           </div>
           <div>
-            <h5 className="my-2 text-xl font-bold text-red-500">
+            <h5 className="my-2 text-xl font-bold text-maroon-500">
               Mid Front End Developer
             </h5>
-            <p className="font-semibold">
+            <p className="font-semibold underline">
               UPayments (August 2022 - January 2023)
             </p>
             <p className="w-full sm:w-3/4 my-3 text-justify">
@@ -62,10 +62,10 @@ const Resume = () => {
             </p>
           </div>
           <div>
-            <h5 className="my-2 text-xl font-bold text-red-500">
-              Front End && ReactJS Developer
+            <h5 className="my-2 text-xl font-bold text-maroon-500">
+              Front End & ReactJS Developer
             </h5>
-            <p className="font-semibold">
+            <p className="font-semibold underline">
               Westerops (September 2021 - August 2022)
             </p>
             <p className="w-full sm:w-3/4 my-3 text-justify">
@@ -81,7 +81,7 @@ const Resume = () => {
       {/* languuages && tools */}
       <div className="grid gap-6 mt-8 md:grid-cols-2">
         <div>
-        <h5 className="flex flex-col xl:flex-row my-2 text-xl font-bold text-red-500">
+          <h5 className="flex flex-col xl:flex-row my-2 text-xl font-bold text-maroon-600 dark:text-red-700">
             <span>Languages && </span> <span className="xl:px-1 px-0">Frameworks</span>
           </h5>
           <div className="my-2">
@@ -92,7 +92,7 @@ const Resume = () => {
         </div>
 
         <div>
-          <h5 className="flex flex-col xl:flex-row my-2 text-xl font-bold text-red-500">
+          <h5 className="flex flex-col xl:flex-row my-2 text-xl font-bold text-maroon-600 dark:text-red-700">
             <span>Tools && </span> <span className="xl:px-1 px-0">Softwares</span>
           </h5>
           <div className="my-2">
