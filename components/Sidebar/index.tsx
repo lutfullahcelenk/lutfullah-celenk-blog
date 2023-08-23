@@ -32,11 +32,11 @@ const Sidebar = () => {
       <h3 className="my-4 text-3xl text-red-800 dark:text-red-700 font-bold tracking-wider font-oswald">
         Lütfullah <span>ÇELENK</span>
       </h3>
-      <p className="px-2 py-1 my-3 text-white bg-gradient-to-b from-red-800 to-red-600 rounded-full dark:bg-dark-200">
+      <p className="px-2 py-1 my-3 text-white bg-gradient-to-b from-red-800 to-red-600 rounded-full dark:from-dark-100 dark:to-dark-200">
         FrontEnd Developer
       </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 text-white bg-gradient-to-b from-red-800 to-red-600 rounded-full dark:bg-dark-200"
+        className="flex items-center justify-center px-2 py-1 my-3 text-white bg-gradient-to-b from-red-800 to-red-600 rounded-full dark:from-dark-200 dark:to-dark-200"
         href="/images/Lutfullah-celenk-cv.pdf"
         download="Lutfullah Celenk - Resume.pdf"
       >
