@@ -82,7 +82,7 @@ const Resume = () => {
       <div className="grid gap-6 mt-8 md:grid-cols-2">
         <div>
           <h5 className="flex flex-col xl:flex-row my-2 text-xl font-bold text-maroon-600 dark:text-red-700">
-            <span>Languages && </span> <span className="xl:px-1 px-0">Frameworks</span>
+            <span>Languages & </span> <span className="xl:px-1 px-0">Frameworks</span>
           </h5>
           <div className="my-2">
             {languages.map((language) => (
@@ -93,7 +93,7 @@ const Resume = () => {
 
         <div>
           <h5 className="flex flex-col xl:flex-row my-2 text-xl font-bold text-maroon-600 dark:text-red-700">
-            <span>Tools && </span> <span className="xl:px-1 px-0">Softwares</span>
+            <span>Tools & </span> <span className="xl:px-1 px-0">Softwares</span>
           </h5>
           <div className="my-2">
             {tools.map((tool) => (
