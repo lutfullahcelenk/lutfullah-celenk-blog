@@ -29,7 +29,10 @@ const Projects = () => {
         {projects.map((project) => (
           <div
             key={project.name}
-            className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200"
+            className="col-span-12 p-2 border-4 font-oswald font-semibold text-lg
+             border-gray-300 bg-gray-400
+             text-white rounded-lg sm:col-span-6 
+             lg:col-span-4 dark:bg-gray-700 dark:hover:bg-red-700 hover:bg-red-800"
           >
             <ProjectCard project={project} />
           </div>
