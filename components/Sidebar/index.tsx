@@ -32,11 +32,11 @@ const Sidebar = () => {
       <h3 className="my-4 text-3xl text-red-800 dark:text-red-700 font-bold tracking-wider font-oswald">
         Lütfullah <span>ÇELENK</span>
       </h3>
-      <p className="px-2 py-1 my-3 text-white bg-red-700 rounded-full dark:bg-dark-200">
+      <p className="px-2 py-1 my-3 text-white bg-gradient-to-b from-red-800 to-red-600 rounded-full dark:bg-dark-200">
         FrontEnd Developer
       </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-3 text-white bg-red-700 rounded-full dark:bg-dark-200"
+        className="flex items-center justify-center px-2 py-1 my-3 text-white bg-gradient-to-b from-red-800 to-red-600 rounded-full dark:bg-dark-200"
         href="/images/Lutfullah-celenk-cv.pdf"
         download="Lutfullah Celenk - Resume.pdf"
       >
@@ -45,7 +45,7 @@ const Sidebar = () => {
       </a>
 
       {/* Social Links*/}
-      <div className="flex justify-around w-3/4 mx-auto my-5 text-red-700 dark:text-white md:w-full">
+      <div className="flex justify-around w-3/4 mx-auto my-5 text-red-800 dark:text-white md:w-full">
         <a
           href="https://github.com/lutfullahcelenk"
           target="_blank"
@@ -87,13 +87,13 @@ const Sidebar = () => {
       {/* Email */}
       <button
         onClick={emailTo}
-        className="w-2/3 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-red-700 to-red-400 dark:bg-gradient-to-l dark:from-dark-200 dark:to-gray-700 focus:outline-none"
+        className="w-2/3 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-b from-red-800 to-red-300 dark:bg-gradient-to-l dark:from-dark-200 dark:to-gray-700 focus:outline-none"
       >
         Email Me
       </button>
       <button
         onClick={changeTheme}
-        className="w-2/3 px-5 py-2 my-2 rounded-full bg-gradient-to-r from-red-700 to-red-400 dark:bg-gradient-to-l dark:from-dark-200 dark:to-gray-700 text-white"
+        className="w-2/3 px-5 py-2 my-2 rounded-full bg-gradient-to-b from-red-800 to-red-300 dark:bg-gradient-to-l dark:from-dark-200 dark:to-gray-700 text-white"
       >
         Toggle Theme
       </button>

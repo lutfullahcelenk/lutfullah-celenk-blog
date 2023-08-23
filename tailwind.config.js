@@ -26,9 +26,12 @@ module.exports = {
           100: '#F9DDEB',
         },
         red: {
-          default: '#800f2f',
+          default: '#900C3F',
           700: '#c9184a',
+          800:'#D2001A',
           900: '#522546',
+          500:'#C70039'
+
         },
         purple: {
           default: '#BEADFA',

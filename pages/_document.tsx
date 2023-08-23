@@ -13,7 +13,7 @@ export default function Document() {
         />
         <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Rubik&display=swap" rel="stylesheet" />
       </Head>
-      <body className="bg-gradient-to-r from-red-default to-red-700 dark:from-dark-default dark:to-dark-200 dark:text-white font-rubik">
+      <body className="bg-gradient-to-b from-red-800 to-blue-400 dark:from-dark-default dark:to-dark-200 dark:text-white font-rubik">
         <Main />
         <NextScript />
       </body>
